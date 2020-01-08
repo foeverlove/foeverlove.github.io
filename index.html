@@ -1,193 +1,579 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-  <meta charset="utf-8">
-  
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
-  
-  <title>RuthZhao</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    hostname: new URL('http://yoursite.com').hostname,
+    root: '/',
+    scheme: 'Gemini',
+    version: '7.7.0',
+    exturl: false,
+    sidebar: {"position":"left","width":300,"display":"post","padding":18,"offset":12,"onmobile":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    comments: {"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: '',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}
+  };
+</script>
+
   <meta name="description" content="这只是我的个人博客！">
 <meta property="og:type" content="website">
 <meta property="og:title" content="RuthZhao">
 <meta property="og:url" content="http://yoursite.com/index.html">
 <meta property="og:site_name" content="RuthZhao">
 <meta property="og:description" content="这只是我的个人博客！">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="好奇宝凹啵啵宝">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="赵_蓉">
 <meta property="article:tag" content="爱">
 <meta property="article:tag" content="与被爱">
 <meta property="article:tag" content="爱世界">
 <meta property="article:tag" content="爱人">
 <meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="RuthZhao" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  
-<link rel="stylesheet" href="/css/style.css">
 
-<meta name="generator" content="Hexo 4.2.0"></head>
+<link rel="canonical" href="http://yoursite.com/">
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">RuthZhao</a>
-      </h1>
-      
-        <h2 id="subtitle-wrap">
-          <a href="/" id="subtitle">世界因你而精彩</a>
-        </h2>
-      
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: true,
+    isPost: false
+  };
+</script>
+
+  <title>RuthZhao</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">RuthZhao</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
     </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-      </div>
+        <p class="site-subtitle">世界因你而精彩</p>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
     </div>
   </div>
-</header>
-      <div class="outer">
-        <section id="main">
+</div>
+
+
+<nav class="site-nav">
   
-    <article id="post-helllo" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/01/05/helllo/" class="article-date">
-  <time datetime="2020-01-05T15:19:39.000Z" itemprop="datePublished">2020-01-05</time>
-</a>
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-schedule">
+
+    <a href="/schedule/" rel="section"><i class="fa fa-fw fa-calendar"></i>日程表</a>
+
+  </li>
+        <li class="menu-item menu-item-sitemap">
+
+    <a href="/sitemap.xml" rel="section"><i class="fa fa-fw fa-sitemap"></i>站点地图</a>
+
+  </li>
+        <li class="menu-item menu-item-commonweal">
+
+    <a href="/404/" rel="section"><i class="fa fa-fw fa-heartbeat"></i>公益 404</a>
+
+  </li>
+  </ul>
+
+</nav>
+</div>
+    </header>
+
     
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
   </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/01/05/helllo/">helllo</a>
-    </h1>
   
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/01/09/%E6%B3%A2%E5%A3%AB%E9%A1%BF%E7%9F%A9%E9%98%B5/">
 
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="赵_蓉">
+      <meta itemprop="description" content="这只是我的个人博客！">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="RuthZhao">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/01/09/%E6%B3%A2%E5%A3%AB%E9%A1%BF%E7%9F%A9%E9%98%B5/" class="post-title-link" itemprop="url">波士顿矩阵</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-01-09 00:32:51 / 修改时间：00:35:46" itemprop="dateCreated datePublished" datetime="2020-01-09T00:32:51+08:00">2020-01-09</time>
+            </span>
+
+          
+
+        </div>
       </header>
+
     
-    <div class="article-entry" itemprop="articleBody">
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
-        
+          <p>理解波士顿矩阵，要先了解两个经济学概念：</p>
+<p>市场占有率（market shares）：在经济学中，总体市场经常被比作一个蛋糕，但是同一块蛋糕很难被两个人同时吃，在市场中，道理也一样。如果你和你的竞争对手享有同样的目标受众，而对方在市场中已经获得了相当一部分受众的认可，也就是说，竞争对手的市场占有率较高，这时，竞品分析中就会得出我方产品缺乏竞争力的结果。</p>
+<p>销售增长率（growth rates）：同样的，我们还拿蛋糕来做比喻，销售增长率的问题就是，既然我只能分到这一小角蛋糕，我能不能把蛋糕做大呢？也就是在保证蛋糕的某块扇形角度不变的情况下，拉长它的半径。</p>
+<p><strong>应用环境</strong></p>
+<p>波士顿矩阵就是根据销售增长率和市场占有率的高低的不同组合分为问题型、明星型、现金牛型、瘦狗型四种产品/业务类型。</p>
+<p><img src="https://gitee.com/deepter/myxsj_pic/raw/master/xsj/2020/1/9/1578501247274.png" alt="波士顿矩阵"></p>
+<p>问题型产品：处在这个领域中的是一些投机性产品，带有较大的风险。这些产品可能利润率很高，但占有的市场份额很小。这往往是一个公司的新业务。</p>
+<p>明星型产品：这个领域中的产品处于快速增长的市场中并且占有支配地位的市场份额，但也许会或也许不会产生正现金流量；也可理解为爆增式用户量和装机量。</p>
+<p>现金牛型产品：处在这个领域中的产品产生大量的现金，但未来的增长前景是有限的。这是成熟市场中的领导者，它是企业现金的来源。</p>
+<p>瘦狗型业务：这个剩下的领域中的产品既不能产生大量的现金，也不需要投入大量现金，这些产品没有希望改进其绩效。一般情况下，这类业务常常是微利甚至是亏损的。</p>
+<p>布鲁斯·亨德森在创立波士顿矩阵时，主要是为了帮助公司分析他们的商务单元和产品链条，从而采取有效的战略使公司的资源得到最优化配置。对于创业者来说，更多是从单个产品进行突破，那么分析产品的市场占有率与销售增长率有助于帮助衡量产品的开发价值，从宏观和源头判断该产品的合理性。</p>
+<p><strong>应用方法和步骤</strong></p>
+<p>那么该如何分析产品的市场占有率和销售增长率呢？</p>
+<p>市场占有率分为相对于绝对的市场占有率，本企业某种产品绝对市场占有率=该产品本企业销售量/该产品市场销售总量；本企业某种产品相对市场占有率=该产品本企业市场占有率/该产品市场占有份额最大者（或特定的竞争对手）的市场。销售增长率可以用本企业限定时间内的销售额或增长率来表示。</p>
+<p>我们应该时刻铭记，用某一种方法分析出的结果并不一定就是权威，它只是我们进行市场选择、竞争策略选择时的参考。比如，进行药品研发通常是一个耗资大、耗时长、成功率低的过程，但是不代表药品研发没有意义，事实上这个领域是更不是应该被放弃的。</p>
+
       
     </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/01/05/helllo/" data-id="ck5191t9m0000559kd5232d32" class="article-share-link">Share</a>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/01/09/%E5%BD%BC%E5%BE%97%C2%B7%E8%80%83%E5%A4%AB%E6%9B%BC%E3%80%8A%E7%A9%B7%E6%9F%A5%E7%90%86%E5%AE%9D%E5%85%B8%E3%80%8B/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="赵_蓉">
+      <meta itemprop="description" content="这只是我的个人博客！">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="RuthZhao">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/01/09/%E5%BD%BC%E5%BE%97%C2%B7%E8%80%83%E5%A4%AB%E6%9B%BC%E3%80%8A%E7%A9%B7%E6%9F%A5%E7%90%86%E5%AE%9D%E5%85%B8%E3%80%8B/" class="post-title-link" itemprop="url">彼得·考夫曼《穷查理宝典》</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-01-09 00:17:54 / 修改时间：00:30:23" itemprop="dateCreated datePublished" datetime="2020-01-09T00:17:54+08:00">2020-01-09</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
+          <p>读完这本书，我更加坚信所谓通往成功的法宝，只有一件，就是勤奋。不勤奋就会忘，不勤奋就没办法认识自己，勤能补拙，勤奋亦能去拙，让人变得聪明。因为聪明人不过是知道的多而且懂得用罢了。</p>
+<p>看到查理小时候的仓鼠交易这一段，想起一句俗语“三岁看大，七岁看老”。这让我想要努力回忆七岁的自己是个什么样？做过哪些事？着急着，想给自己一个判断。我想，这也是大多数人一直在努力追求的。想到这里，终于觉察到思路已经跑偏。</p>
+<p>读这本书的时间和读《结构思考力》的时间相差不多，难免想要做些比较。尽管这两本书中都列举了大量“高大上”的例子，但《穷查理宝典》总是能带给我更多的高级感体验。我在想这种高级感的来源究竟是什么？第一能想到的理由是，熟悉程度。对于西方的文化，包括耳熟能详的阿基米德，也只是略知一二，所以这种陌生感带来了高级感。但事实上，对牛虻、萧伯纳的熟悉感应该也是足够的，所以可能有第二个理由是，那就是个人性格原因，天然对西方的出版物好感度较高，这种好感度包括行文的逻辑、风格，不拘一格的方式，就像是在聊天，阅读的压迫感少了，好感高了，自然会有高级感，因为人总是会给自己喜欢的事物更高的评价。</p>
+<p>这本书可以被一分为二，前面类似于人物传记，后面是演讲集。就像作者说的，前面的部分只是对“他看上去是怎么做的”进行概述，而演讲集才是提出具体“怎么做”。查理的一条思路给了我很大的信心，他说，人要怎么活着，自己要想清楚。我的理解就是，不是每个人都必须有一个别人眼里合格的目标，认清楚自己想要什么，并且找到自己通往目的地的路径。仅凭既定的路线是无法到达斯里兰卡的，那么我们也需要不断摸索前进。</p>
+<p>在前一部分作者提到的概念有以下，每一个点都是值得去深入思考和研究的：</p>
+<ul>
+<li>多元思维模型</li>
+<li>先天的独狼性格</li>
+<li>能力圈（边界问题）</li>
+<li>独立思考</li>
+</ul>
+<p><strong>语录：</strong><br>晚年的最佳保护铠甲是一段在它之前被悉心度过的生活。<br>我发现把自由的市场经济——或者部分自由的市场经济—— 当作某种生态系统是很有用的思维方式。动物在合适的地方能够繁 衍，同样地，人只要在社会上找到了专属于自己的位置，也能够做 得很成功。</p>
+<p>中间夹杂了一些其它事务，将近两周之后，我又拿起这本书，准备开始“查理十一讲”的阅读。在此之前，我通过自己的读书笔记，回忆了这本书前半部分的内容，发现笔记帮助我俭省了复盘再看的时间。</p>
+<p><img src="https://gitee.com/deepter/myxsj_pic/raw/master/xsj/2020/1/9/1578500451773.png" alt="查理十一讲"></p>
+<p>查理十一讲</p>
+<p>虽然一共是十一讲，但作为一个人的整体思想，这其中必定是交融甚多的。我选择几个对我来说重要的点进行记录：</p>
+<ol>
+<li>人必须要构建自己的整体思考框架，这个框架不是完全不会改变的，但是需要足够稳定，要能够综合各个学科领域的智慧。其实这也是现在大部分人所缺乏的，我们读了很多书，看了很多电影，发出过一两点感慨，却很难将一件事做到“庖丁解牛”那样。这是在未来一段时间内，需要致力发展的地方。</li>
+<li>保持自己的底线。这个底线可能是道德方面的，也可能是其它什么。其实我想把这个底线定义为“靠谱”。</li>
+<li>工作三原则。只卖自己会买的，为自己敬佩的人做事，和自己喜欢的人共事，这简直是神仙日子。对于这点，大概是每个人不懈追求的目标吧。</li>
+</ol>
+<p>总之，别人用尽一生总结的智慧，需要重复品读与实践才能真正理解。</p>
+
       
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/01/09/SWOT&Kano%E6%A8%A1%E5%9E%8B/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="赵_蓉">
+      <meta itemprop="description" content="这只是我的个人博客！">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="RuthZhao">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/01/09/SWOT&Kano%E6%A8%A1%E5%9E%8B/" class="post-title-link" itemprop="url">SWOT&Kano模型</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-01-09 00:05:22 / 修改时间：00:23:14" itemprop="dateCreated datePublished" datetime="2020-01-09T00:05:22+08:00">2020-01-09</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="一、SWOT分析法"><a href="#一、SWOT分析法" class="headerlink" title="一、SWOT分析法"></a>一、SWOT分析法</h1><p>实际上是将对企业内外部条件各方面内容进行综合和概括，进而分析组织的优劣势、面临的机会和威胁的一种方法（较为宏观和主观）也可作为竞品分析的一种方法。</p>
+<h1 id="二、客户满意度模型（Kano模型）"><a href="#二、客户满意度模型（Kano模型）" class="headerlink" title="二、客户满意度模型（Kano模型）"></a>二、客户满意度模型（Kano模型）</h1><p>KANO模型定义了三个层次的顾客需求：基本型需求、期望型需求和兴奋型需求。这三种需求根据绩效指标分类就是基本因素、绩效因素和激励因素。<br>（1）基本型需求：用户认为产品“必须有”的属性或功能。当其特性不充足（不满足用户需求）时，用户很不满意;当其特性充足（满足用户需求）时，无所谓满意不满意，用户充其量是满意。<br>（2）期望型需求：耍求提供的产品或服务比较优秀，但并不是“必须”的产品属性或服务行为有些期望型需求连用户都不太清楚，但是是他们希望得到的；在市场调查中，用户谈论的通常是期望型需求，期望型需求在产品中实现的越多，用户就越满意；当没有满意这些需求时，用户就不满意。<br>（3）兴奋型需求：要求提供给用户一些完全出乎意料的产品属性或服务行为，使用户产生惊喜。当其特性不充足时，并且是无关紧要的特性，则用户无所谓，当产品提供了这类需求中的服务时，用户就会对产品非常满意，从而提高用户的忠诚度。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+  </div>
+
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">赵_蓉</p>
+  <div class="site-description" itemprop="description">这只是我的个人博客！</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="mailto:yourname@gmail.com" title="E-Mail → mailto:yourname@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://weibo.com/yourname" title="Weibo → https:&#x2F;&#x2F;weibo.com&#x2F;yourname" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i>Weibo</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">赵_蓉</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.2.0
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.7.0
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
     </footer>
   </div>
-  
-</article>
-
 
   
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
 
 
-</section>
-        
-          <aside id="sidebar">
-  
-    
+<script src="/js/schemes/pisces.js"></script>
 
-  
-    
 
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/01/">January 2020</a></li></ul>
-    </div>
-  </div>
+<script src="/js/next-boot.js"></script>
+
+
 
 
   
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2020/01/05/helllo/">helllo</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
 
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2020 好奇宝凹啵啵宝<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
 
 
   
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
 
   
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
 
-
-
-
-<script src="/js/script.js"></script>
-
-
-
-
-  </div>
 </body>
 </html>
